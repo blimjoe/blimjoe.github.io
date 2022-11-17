@@ -13,7 +13,9 @@ $ mkdir /etc/clash
 # 增加config.yaml和Country.mmdb  
 ```  
 3. 设置systemd  
-``` sudo touch /etc/systemd/system/clash.service```  
+``` 
+$ sudo touch /etc/systemd/system/clash.service
+```  
 内容如下： 
 ```  
 [Unit]
