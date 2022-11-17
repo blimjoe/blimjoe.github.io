@@ -10,26 +10,24 @@ $ sudo mv clash-linux-amd64-v1.11.12 /usr/bin/clash
 2. 增加订阅  
 ``` 
 $ mkdir /etc/clash  
-# 增加config.yaml和Country.mmdb  
+// 增加config.yaml和Country.mmdb  
 ```  
 3. 设置systemd  
-``` 
+```   
 $ sudo touch /etc/systemd/system/clash.service
 ```  
 内容如下： 
-```  
-[Unit]
-Description=clash daemon
-
-[Service]
-Type=simple
-User=root
-ExecStart=/usr/bin/clash -d /etc/clash/
-Restart=on-failure
-
-[Install]
-WantedBy=multi-user.target
-```  
+> [Unit]
+> Description=clash daemon
+> 
+> [Service]
+> Type=simple
+> User=root
+> ExecStart=/usr/bin/clash -d /etc/clash/
+> Restart=on-failure
+> 
+> [Install]
+> WantedBy=multi-user.target  
 ```  
 $ sudo systemctl daemon-reload
 $ sudo systemctl start clash.service  
