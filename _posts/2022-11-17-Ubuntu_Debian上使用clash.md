@@ -27,7 +27,8 @@ $ sudo touch /etc/systemd/system/clash.service
 > Restart=on-failure
 > 
 > [Install]
-> WantedBy=multi-user.target  
+> WantedBy=multi-user.target 
+   
 ```  
 $ sudo systemctl daemon-reload
 $ sudo systemctl start clash.service  
