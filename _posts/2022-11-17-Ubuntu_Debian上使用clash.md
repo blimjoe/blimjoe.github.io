@@ -1,3 +1,7 @@
+---
+title: Ubuntu/Debian上使用clash
+tags: 运维
+---  
 ### Ubuntu / Debian上使用clash  
 1. clash core  
 下载clash core（https://github.com/Dreamacro/clash/releases）  
