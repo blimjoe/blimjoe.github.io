@@ -1,6 +1,6 @@
 ---
 title: Ubuntu/Debian上使用clash
-tags: 运维
+tags: 运维 Debian Ubuntu Linux OS
 ---  
 ### Ubuntu / Debian上使用clash  
 1. clash core  
