@@ -4,7 +4,7 @@ tags: 运维 ubuntu cfx blockchain
 article_header:
   type: cover
   image:
-    src: /blimjoe/pictures/blogs/2022-11-23-cover.jpg
+    src: /blimjoe/pictures/blogs/2022-11-23-cover.png
 ---
 使用未使用（未被登录设备）挖CFX  
 > Conflux’s token economy is built around the $CFX token, a unit of value on the platform that enables token holders to pay transaction fees, earn rewards through staking, rent storage, and participate in network governance. CFX also incentivizes and rewards miners, who ensure the secure operation of the Network.  
