@@ -8,7 +8,8 @@ article_header:
 ---
 使用未使用（未被登录设备）挖CFX  
 > Conflux’s token economy is built around the $CFX token, a unit of value on the platform that enables token holders to pay transaction fees, earn rewards through staking, rent storage, and participate in network governance. CFX also incentivizes and rewards miners, who ensure the secure operation of the Network.  
-> 
+>  
+   
 ### blablabla! What ever! （翻白眼）  
 我这边使用的是未在被使用的nvidiea显卡的Ubuntu 20.04  
 ---  
@@ -81,7 +82,7 @@ $ ./NBMiner_Linux/nbminer -a octopus -o stratum+tcp://cfx.f2pool.com:6800 -u bli
 记住吧-u后面的内容填你自己的，要不然就帮我了。 
 ``` 
 ### 6. 写个脚本  
-```
+```bash
 #!/bin/bash
 
 sleep 5
@@ -91,7 +92,7 @@ sleep 5
 ```  
 ### 7. 写个cron脚本定时执行  
 由于我是偷偷摸摸，懂的都懂。所以为了不让发现，写了个crontab用的脚本  
-```
+```bash
 #!/bin/bash
 
 monitor=（你怕的那个人）
