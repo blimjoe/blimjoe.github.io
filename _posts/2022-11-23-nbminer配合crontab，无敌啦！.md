@@ -39,6 +39,10 @@ $ apt install shadowsocks-libev
         "timeout":60
 }
 ```  
+保存之后重启服务  
+```
+$ systemctl restart shadowsocks-libev
+```  
 密码及端口自己填。但是记得选择的端口要在服务器的出入站规则中添加进去哦。  
 ### 4. 本地ss client  
 本机上同样的  
@@ -161,3 +165,4 @@ $ crontab -e
 每分钟执行以下  
 ### 9. 结束  
 就OK了。然后愉快的去f2pool上看一下收益吧……不看不知道，一看心塞塞: )  
+![我是长图片](/blimjoe/pictures/blogs/2022-11-23-log.png "log")
